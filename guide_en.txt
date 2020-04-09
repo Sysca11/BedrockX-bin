@@ -1,0 +1,23 @@
+*1.first installation
+	1.download base_env.7z & release_...7z
+	2.extract files to your bds folder
+	(your folder structure will like
+		bedrock_server.exe
+		bedrock_server.pdb
+		RoDB.exe
+		LightBase.dll ...
+		Chakara.dll ...
+		bdxmod\
+		config\
+	...)
+	3.execute RoDB.exe to generate bedrock_server.symdb
+	*WARNING:RoDB.exe wont work in wine,you can copy a symdb from another server(generated from a same bedrock_server.pdb)
+
+*2.update
+	Most of the time you needn't update base_env,so just download a new release_...7z
+	1.delete bdxmod\
+	2.update bdxmod\ folder
+	3.sometimes configs\ and landpack\ will have new things too,you can overwrite directly,or check the difference manunally.
+
+*3.startup
+	click start.bat,or start bedrock_server.exe directly.

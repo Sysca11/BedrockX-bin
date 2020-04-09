@@ -1,0 +1,22 @@
+*1.初次安装
+	1.下载 base_env.7z & release_...7z
+	2.解压文件，复制文件
+	(把服务器目录整成类似这个样子
+		bedrock_server.exe
+		bedrock_server.pdb
+		RoDB.exe
+		LightBase.dll ...
+		Chakara.dll ...
+		bdxmod\
+		config\
+	...)
+	3.运行 RoDB.exe 来生成 bedrock_server.symdb
+	*注意：RoDB.exe在wine环境似乎工作不正常，请用相同pdb在windows下生成symdb，再复制过来
+*2.更新
+	大多数时候不用更新base_env.7z，只需要下载release_...7z
+	1.删除bdxmod文件夹
+	2.解压bdxmod文件夹
+	3.有时候 configs\ 和 landpack\ 也要更新，所以建议直接覆盖或者手动更新
+
+*3.开服
+	如果你习惯双击开服，直接start.bat，如果你用自己的终端或者其他管理软件，直接启动exe
