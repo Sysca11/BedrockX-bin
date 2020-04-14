@@ -1,0 +1,12 @@
+1.extract files(0414_full.7z) to your bds folder
+	(your folder structure will like
+		bedrock_server.exe
+		bedrock_server.pdb
+		RoDB.exe
+		LightBase.dll ...
+		Chakara.dll ...
+		bdxmod\
+		config\
+	...)
+2.execute RoDB.exe to generate bedrock_server.symdb
+3.start your server
