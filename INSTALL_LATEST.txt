@@ -1,4 +1,4 @@
-1.extract files(0414_full.7z) to your bds folder
+1.extract files(20200417_n.7z) to your bds folder
 	(your folder structure will like
 		bedrock_server.exe
 		bedrock_server.pdb
