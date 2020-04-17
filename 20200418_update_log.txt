@@ -1,0 +1,19 @@
+[Lua] add native threading API & thread communication API (experimental)
+[Lua] add json & socket support
+[Lua] add simple async HTTP API
+[Lua] you can use lambda in `schedule`
+
+[menu.lua] add chained command block liked menu entry (just like BDLauncher)
+chain <menu entry name> <image path> (condition) (onSuccess)
+see config/menu.txt for more information
+
+[helper] add /vanish
+[helper] now custom name(/cname) will replace nametag
+[helper] You can remove grey text "[playerName:command.success]" in game chat
+
+[LightBase] add Actor::getRuntimeID()
+[LightBase] rewrite offset searcher to support 1.14.x
+[LightBase/stl] fix duplicated writeback in asyncFStream
+[LightBase/stl] add WorkerPool
+[LightBase/dlsym] add ptr2name(address to symbol name,experimental),faster symbol lookup
+
