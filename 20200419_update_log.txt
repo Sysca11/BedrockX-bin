@@ -1,0 +1,5 @@
+[Lua] add some filesystem API
+[Lua] !!! move inventory API to table 'invapi'
+[Lua] move __schedule into table (but you can still use `schedule` provided by init.lua)
+[Lua] inventory API:add enderchest dump (into binary file),enderchest load (from binary file)
+[helper/CustomName] now use can use '^' to start a new line in custom name
