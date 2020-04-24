@@ -1,0 +1,8 @@
+now argument#2 of event "onCMD" in lua does not have prefix '/' anymore.
+And please use runCmdAs(name,"me xxx"),dont add prefix '/'
+
+---update log---
+[CustName] now '\n' wont show in chat
+[Lua] try to fix random crashes
+[Lua] reconstruct and ~50% performance tweaks
+[Lua] add isOP("player name")->bool
